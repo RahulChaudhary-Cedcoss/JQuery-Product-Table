@@ -1,5 +1,8 @@
-var product = [];
+$(".success").hide();
+$(".error").hide();
+$("#update_product").hide();
 
+var product = [];
 // Taking the values from the user and setting the css of input feild  
 $("#add_product").click(()=>{
     var P_skn = $("#product_sku").val();
